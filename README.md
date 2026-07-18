@@ -53,11 +53,15 @@ Security teams and auditors typically need to manually verify that Activity Logs
 
 ## 🚀 How It Works
 
+<img width="1568" height="456" alt="image" src="https://github.com/user-attachments/assets/a57742b4-1116-4ec7-aea2-fbd93e37034c" />
+
 1. **Authentication:** The script authenticates via the Azure Identity library — using the local CLI login during development, or its Managed Identity when running in the cloud.
 2. **API Query:** It sends a request to the Azure REST API to retrieve `microsoft.insights/diagnosticSettings` for the target subscription.
 3. **Data Parsing:** The response is parsed to determine where Administrative and Security logs are currently being exported (e.g., Log Analytics Workspace, Storage Account).
 4. **Compliance Evaluation:** These settings are checked against the tool's GRC baseline. Missing exports or unsecured storage destinations are flagged.
 5. **Report Generation:** A detailed JSON file and a summary CSV file are generated for handoff to auditors or ingestion into a dashboard.
+
+<img width="1298" height="706" alt="image" src="https://github.com/user-attachments/assets/4df6e50d-fec4-476a-96d2-b504460ec502" />
 
 ---
 

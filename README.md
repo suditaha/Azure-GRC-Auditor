@@ -1,5 +1,7 @@
 # 🛡️ Azure GRC Auditor
 
+<img width="1568" height="752" alt="image" src="https://github.com/user-attachments/assets/1fa724df-9258-4549-88c6-4b5bf2e1fc1f" />
+
 An automated compliance scanning engine that audits Azure environments against logging and monitoring controls required by major security frameworks — SOC 2, NIST 800-53, and ISO 27001.
 
 Security teams and auditors typically need to manually verify that Activity Logs (the record of who did what across a subscription) are actually being exported to a durable destination — a step that's easy to overlook and tedious to check by hand. This tool queries Azure Resource Manager directly to confirm Diagnostic Settings are configured correctly, flagging any gaps in audit trail coverage before an auditor finds them first.

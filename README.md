@@ -1,4 +1,4 @@
-# 🛡️ Azure GRC Auditor
+# 🛡️ Azure Diagnostic Settings Compliance Auditor
 
 <img width="1568" height="752" alt="image" src="https://github.com/user-attachments/assets/1fa724df-9258-4549-88c6-4b5bf2e1fc1f" />
 
